@@ -1,0 +1,37 @@
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana;
+    font-size: 50px;
+    font-weight: 2px;
+    color: #393d44;
+    z-index: 1000;
+}
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.banner-btn {
+	position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.b-column {
+    float: left;
+    width: 33.33%;
+}
+.b-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+    padding-top: 1.5rem;
+    color: #777;
+    border-top: .05rem solid #e5e5e5;
+    margin-top: 200px;
+}
